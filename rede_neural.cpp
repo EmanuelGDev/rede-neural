@@ -40,8 +40,8 @@ int main(){
   calc4();
 
   imp1();
-  imp3();
   imp2();
+  imp3();
   imp4();
   imp5();
 
@@ -129,7 +129,7 @@ void imp1(){
 /*Imprime os rostos armazenados na matriz de memoria
 auto-associativa*/
 
-void imp3(){
+void imp2(){
   cout << "Matriz dos rostos armazenados na memoria auto-associativa:\n";
   for(int i = 0; i < 4; i++){
     for (int j = 0; j < 4; j++){
@@ -142,7 +142,7 @@ void imp3(){
 
 /*Imprime a matriz de rostos após lembrança*/
 
-void imp2(){
+void imp3(){
   cout << "Matriz apos ser feita a lembranca dos rostos:\n";
   for(int i = 0; i < 4; i++){
     for(int j = 0; j < 10; j++){
