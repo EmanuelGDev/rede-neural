@@ -143,7 +143,7 @@ void imp3(){
 /*Imprime a matriz de rostos após lembrança*/
 
 void imp2(){
-  cout << "Matriz apos ser feita a lembraça dos rostos:\n";
+  cout << "Matriz apos ser feita a lembraca dos rostos:\n";
   for(int i = 0; i < 4; i++){
     for(int j = 0; j < 10; j++){
         cout << setw(8) << fixed << setprecision(0) << W[i][j];
