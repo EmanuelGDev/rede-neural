@@ -2,7 +2,7 @@
 #include <iostream>
 #include <math.h>
 using namespace std;
-
+//teste
 //Variaveis usadas
 double X[4][10] = {
   {1, -1, -1, 1, -1, 1, 1, -1, -1, 1},
